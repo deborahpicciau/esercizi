@@ -1,0 +1,11 @@
+//Programma che calcola l'area di un rettangolo leggendo da tastiera la base e l'altezza
+#include <stdio.h>
+int main() {
+  int base, height; //due variabili di tipo int
+  printf("Insert the base: ");
+  scanf("%d", &base); //carica in "base" il numero intero inserito da tastiera
+  printf("Insert the height: ");
+  scanf("%d", &height); //carica in "height" il numero intero inserito da tastiera
+  printf("The area is: %d\n",base * height); //Calcola e stampa a video l'area del rettangolo
+  printf("Memory address for base is %p and for height is: %p\n",&base, &height); //Visualizza gi indirizzi di memoria delle due variabili
+}
